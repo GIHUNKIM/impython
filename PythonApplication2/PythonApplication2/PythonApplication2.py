@@ -45,15 +45,35 @@ data.insert(11,'number3')
 
 #for steps in data :
 #    print(steps)
-scores=[85,62,63,45,90]
-print(scores.sort())  # 오름차순으로 정렬
+
+
 #scores.reverse()     # 반대로 순서가 바뀐다
 
-for steps in range(4) :
-    print(data[steps])   #
+for steps in data :
+    if isinstance(steps,list) : #대괄호가 없이 들여쓰기로 함수를 사용한다
+        for step in steps :
+            print(step)
+
+
+    else :
+        print(steps)   #
 
 #top5 리스트 만들어 보기
 #sort , reverse , [0:5] 범위연산자 사용
+
+scores=[85,62,63,45,90]
+scores.sort()  # 오름차순으로 정렬
+scores.reverse()
+print(scores[0:5])
+
+#리스트안에 리스트가 있다는 2차원으로 생각할 수 있다
+#for문 안에 또 다른 for문을 둔다 (그런함수가 있다 isinstance
+
+
+#scores.append(50) #데이터 하나만 삽입할수 있다
+#print(scores)
+scores.extend(50,60)
+print(scores)
 
 
 
