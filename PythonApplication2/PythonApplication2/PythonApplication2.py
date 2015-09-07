@@ -72,8 +72,16 @@ print(scores[0:5])
 
 #scores.append(50) #데이터 하나만 삽입할수 있다
 #print(scores)
-scores.extend(50,60)
+scores.extend([50,60]) #리스트를 더할수 있다
 print(scores)
+
+
+t1=()
+t2=(1,)
+t3=(1,2,3)
+t4=1,2,3
+t5=('a','b',('ab','cd'))
+
 
 
 
