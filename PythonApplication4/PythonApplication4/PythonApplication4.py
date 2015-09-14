@@ -90,10 +90,10 @@ import os   #os라는 라이브러리 사용
 
 print(os.getcwd())   #getcwd : 현재 작업 디렉토리에 해당되는 위치 
 #os.mkdir("sample")
-os.chdir(".//sample")
+os.chdir(".\\sample")
 print(os.getcwd())
 #os.system("dir\\w")
-os.system("python setup.py sdist")
-#os.system("python setup.py install")
+#os.system("python setup.py sdist")
+os.system("python setup.py install")
 
 
