@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5ecbad95-1b4b-4ae3-80d6-fcdcdf83d88a</ProjectGuid>
+    <ProjectGuid>377bebdf-c0d7-4626-ba64-4d679c15410b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication5.py</StartupFile>
+    <StartupFile>PythonApplication7.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication5</Name>
-    <RootNamespace>PythonApplication5</RootNamespace>
+    <Name>PythonApplication7</Name>
+    <RootNamespace>PythonApplication7</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\Desktop\Report1-2.py">
-      <Link>Report1-2.py</Link>
-    </Compile>
+    <Compile Include="PythonApplication7.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
